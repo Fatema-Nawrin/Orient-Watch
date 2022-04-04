@@ -3,12 +3,14 @@ nav {
     align-items: center;
     justify-content: center;
     margin: 1.5rem 0;
+    font-family: 'Poppins', sans-serif;
 }
-
 
 nav a {
     text-decoration: none;
-    padding: 0 2rem;
+    padding: 1rem 1rem;
     font-size: 18px;
     color: black;
+    margin: 1rem;
+    border-radius: 1rem;
 }

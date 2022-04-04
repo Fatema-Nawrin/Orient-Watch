@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 function CustomLink({ children, to, ...props }) {
@@ -7,7 +8,7 @@ function CustomLink({ children, to, ...props }) {
     return (
         <div>
             <Link
-                style={{ textDecoration: match ? "underline" : "none" }}
+                style={{ backgroundColor: match ? "mistyrose" : "white" }}
                 to={to}
                 {...props}
             >
