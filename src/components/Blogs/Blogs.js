@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='mt-4 p-2 md:p-6'>
-            <h1 className='text-center text-xl lg:text-2xl font-semibold pb-4'>Questions and Answers Blog</h1>
+        <div className='mt-8 p-2 md:p-6'>
+            <h1 className='text-center text-2xl lg:text-4xl font-semibold pb-4'>Questions and Answers Blog</h1>
             <h2 className='text-lg font-semibold my-4'>What is the purpose of context API?</h2>
             <p className='lg:pr-4 mb-4'>Usually, data is passed from up (parents) to down (child) through props. It is called props drilling. So, in order to pass data in a child component through many nested elements, data is passed by every level of trees which can be quite difficult. To solve this problem, context API is used. Context provides a way to pass data  withot passing props in every level.</p>
 
