@@ -1,6 +1,6 @@
 # Orient Watch
 
- [Live website link]("https://fantastic-yeot-b15170.netlify.app/home").
+ [Live website link](https://fantastic-yeot-b15170.netlify.app/).
 
 ## Website Details
 - This ia an product review site which was created by react app.
