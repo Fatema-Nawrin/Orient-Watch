@@ -7,7 +7,8 @@ const Reviews = () => {
     return (
         <div>
             <div className='mt-10 lg:mt-16'>
-                <h2 className='text-center text-xl lg:text-3xl text-gray-500 font-semibold'>Customer Reviews </h2>
+                <h2 className='text-center text-2xl lg:text-4xl font-medium mb-4'>Customer Reviews </h2>
+                <h3 className='text-center text-lg lg:text-xl text-gray-400 font-medium'>Before making your choice, find out what our customers are saying about orient master, the good and the bad.</h3>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-6'>
                     {
                         reviews.map(review => <ReviewCard

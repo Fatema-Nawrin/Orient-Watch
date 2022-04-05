@@ -31,7 +31,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='mb-8 text-center text-white'>
-                <button className='bg-black p-4 rounded-xl'> <Link to="/reviews">See all reviews</Link></button>
+                <button className='bg-gray-400 p-4 rounded-xl text-lg'> <Link to="/reviews">See all reviews</Link></button>
             </div>
         </div>
     );
