@@ -8,8 +8,8 @@ import './Home.css'
 const Home = () => {
     const [reviews, setReviews] = useReviews();
     return (
-        <div className=''>
-            <div className='grid grid-cols-1 lg:grid-cols-2 mt-12' >
+        <div>
+            <div className='grid grid-cols-1 lg:grid-cols-2 mt-4' >
                 <div className='mt-4 p-4 lg:p-8'>
                     <h1 className='text-4xl lg:text-6xl mb-4 lg:mt-12'>Orient Master</h1>
                     <h3 className='text-xl lg:text-3xl mb-4 text-gray-400 font-semibold'>Ultimate Elegance</h3>
