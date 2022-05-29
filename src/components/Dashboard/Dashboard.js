@@ -9,7 +9,7 @@ const Dashboard = () => {
             .then(data => setData(data))
     }, [])
     return (
-        <div>
+        <div className='mx-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-12 justify-items-center'>
                 <div>
                     <h3 className='font-bold text-center text-lg text-gray-600 mb-6'>Month Wise Sell</h3>

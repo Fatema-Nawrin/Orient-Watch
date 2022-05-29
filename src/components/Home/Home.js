@@ -8,7 +8,7 @@ import './Home.css'
 const Home = () => {
     const [reviews, setReviews] = useReviews();
     return (
-        <div>
+        <div className='mx-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2 mt-4' >
                 <div className='mt-4 p-4 lg:p-8'>
                     <h1 className='text-4xl lg:text-6xl mb-4 lg:mt-12'>Orient Master</h1>
@@ -31,7 +31,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='mb-8 text-center text-white'>
-                <button className='bg-gray-400 p-4 rounded-xl text-lg'> <Link to="/reviews">See all reviews</Link></button>
+                <button className='bg-black p-4 rounded-xl text-lg'> <Link to="/reviews">See all reviews</Link></button>
             </div>
         </div>
     );
